@@ -1,10 +1,16 @@
 body{
     height: 95vh;
-    width: 95vw;
+    width: 95VW;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:white;    
+    flex-direction: column;
     color: rgb(0, 109, 0);
+    background-image: url("/img/background.jpg");
+    background-size: cover;
+    background-blend-mode: color-dodge;
+}
+
+.title{
+    color: white;
 }
